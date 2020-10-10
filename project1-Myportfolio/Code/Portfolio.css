@@ -1,0 +1,127 @@
+/* start the change style for web page*/
+/* Iuse box sizing for include the padding and border in an element's total width and height.*/
+* {
+  box-sizing: border-box;
+}
+
+body {margin: 0px;
+    padding:0px;
+  
+}
+/* start style 1st page*/
+/* Style the header */
+header {height:75px;
+  background-color:plum;
+  padding: 5px;
+  text-align: left;
+  font-size: 25px;
+  color: purple;
+  
+}
+header div{ font-family: 'Pontano Sans';}
+
+section{display: flex;}
+/* Style the navigation nav */
+nav {
+  /* support google chrom browser*/
+  -webkit-flex: 1;
+  /* ms flex to support internent exploer browser*/
+  -ms-flex: 1;
+  /* flex shorhand felx grow,shrink, basic mean 110*/
+  flex: 1;
+ 
+  background :plum;
+ margin:1px; ;
+  padding: 8px 15px 15px 10px;
+ position: relative
+;
+ 
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li{display: inline;font-size: 16pt;
+
+padding:20px;}
+
+a{text-decoration: none;float:right;padding:15px; }
+.icone{font-size:30px;}
+
+
+
+/* style footer*/
+.footer {
+                    position: fixed;
+                    left: 0;
+                    bottom: 0;
+                  width: 100%;
+                   height: 10%;
+                    background-color:plum;
+                    color: purple;
+                    text-align: center;
+                    font-family: 'Amaranth';
+                    font-size: 25px;clear:both;
+                  }
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section{
+    -webkit-flex-direction: column;
+    flex-direction: column;}
+
+                  }
+                
+               
+
+/* style for about page*/
+.grid-container {
+  display: grid;
+  grid-template-columns:   auto auto ;
+  grid-gap: 10px;
+  
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 20px 0;
+  font-size: 16pt;
+ 
+  border-radius: 6px;
+  
+}
+
+div {text-align:left;padding:10px;margin:10px;
+  font-family: 'Amaranth';color: purple;
+  font-size: 30pt;}
+
+  
+
+
+.checked {
+  color: orange;
+}
+/*start style page contact*/
+form {display :grid;
+grid-template-columns: auto auto;
+}
+input{color:purple; 
+ padding: 25px;
+margin: 25px;
+border:3px solid purple;}
+
+.press{color:purple; height: 300% ;width:100%; text-align: center;position: relative; left:50%; border:3px solid purple;}
+.icon{ font-size: 50px;position:relative;right:50%;}
+
+/* animation svg for page 1*/
+ .curved{background:purple;color:plum;margin: 0px;
+text-align:center;} 
+
+.curved h1{font-size:6rem;
+font-family: 'Courier New', Courier, monospace;margin:0px;}
+.curved p{font-size :2rem;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;margin:0 5rem 0 5rem;}
+ 
