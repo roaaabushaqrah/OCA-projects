@@ -14,13 +14,13 @@ header {height:75px;
   background-color:plum;
   padding: 5px;
   text-align: left;
-  font-size: 25px;
-  color: purple;
+  font-size:30pt;
+  color:purple;
   
 }
 header div{ font-family: 'Pontano Sans';}
 
-section{display: flex;}
+
 /* Style the navigation nav */
 nav {
   /* support google chrom browser*/
@@ -33,21 +33,19 @@ nav {
   background :plum;
  margin:1px; ;
   padding: 8px 15px 15px 10px;
- position: relative
-;
  
 }
 
 /* Style the list inside the menu */
 nav ul {
   list-style-type: none;
-  padding: 0;
+  padding: 0px;
 }
 nav ul li{display: inline;font-size: 16pt;
 
 padding:20px;}
 
-a{text-decoration: none;float:right;padding:15px; }
+a{text-decoration: none;/*float:right*/;padding:15px; }
 .icone{font-size:30px;}
 
 
@@ -63,38 +61,31 @@ a{text-decoration: none;float:right;padding:15px; }
                     color: purple;
                     text-align: center;
                     font-family: 'Amaranth';
-                    font-size: 25px;clear:both;
+                    font-size: 25px;clear: both;
                   }
-/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  section{
-    -webkit-flex-direction: column;
-    flex-direction: column;}
 
-                  }
-                
                
 
 /* style for about page*/
 .grid-container {
   display: grid;
-  grid-template-columns:   auto auto ;
-  grid-gap: 10px;
+  grid-template-columns:   auto auto ;grid-gap: 10px;
   
-  padding: 10px;
+  padding: 10px; 
 }
+
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 225 255, 0.8);
   text-align: left;
-  padding: 20px 0;
+  padding: 20px 0px;
+
   font-size: 16pt;
  
-  border-radius: 6px;
+
   
 }
-
-div {text-align:left;padding:10px;margin:10px;
+.item1{text-align:left;padding:10px;margin:10px;
   font-family: 'Amaranth';color: purple;
   font-size: 30pt;}
 
@@ -114,8 +105,7 @@ margin: 25px;
 border:3px solid purple;}
 
 .press{color:purple; height: 300% ;width:100%; text-align: center;position: relative; left:50%; border:3px solid purple;}
-.icon{ font-size: 50px;position:relative;right:50%;}
-
+.icon{ font-size: 50px;position:relative;left:40%;top:50px;}
 /* animation svg for page 1*/
  .curved{background:purple;color:plum;margin: 0px;
 text-align:center;} 
