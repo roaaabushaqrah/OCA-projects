@@ -20,9 +20,10 @@ header {height:75px;
 }
 header div{ font-family: 'Pontano Sans';}
 
-
+section{display: flex;
+}
 /* Style the navigation nav */
-nav {display: flex;
+nav {
   
   
  
