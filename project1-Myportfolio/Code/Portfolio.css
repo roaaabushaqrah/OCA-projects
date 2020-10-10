@@ -29,7 +29,8 @@ nav {
   -ms-flex: 1;
   /* flex shorhand felx grow,shrink, basic mean 110*/
   flex: 1;
- 
+  
+
   background :plum;
  margin:1px; ;
   padding: 8px 15px 15px 10px;
@@ -61,7 +62,7 @@ a{text-decoration: none;/*float:right*/;padding:15px; }
                     color: purple;
                     text-align: center;
                     font-family: 'Amaranth';
-                    font-size: 25px;clear: both;
+                    font-size: 25px;
                   }
 
                
