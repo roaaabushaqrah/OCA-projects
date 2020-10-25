@@ -1,0 +1,16 @@
+h1{color:green; text-align: center;
+ }
+hr {width:40%;border: 1px solid green;}
+body{background-color: azure;}
+.check>div{display: inline;}
+input{display:block; position: relative;left:40%;}
+button{background-color: green;width: 15%;height: 10%;border-radius: 5px;position: relative;left: 40%;}
+
+.container{ display :flex;
+    flex-direction: row;
+    
+    
+    
+}
+.container>div{ margin:0px;background-color:blue;widows:30%;position: relative;left: 50%;
+}
